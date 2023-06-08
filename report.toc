@@ -1,0 +1,18 @@
+\contentsline {section}{\numberline {1}Board Setup}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Downloading ubuntu image for zcu104}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Initial board setup}{1}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Network setup}{1}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}xlnx-config}{1}{subsubsection.1.2.2}%
+\contentsline {section}{\numberline {2}Build Petalinux with DLA Hardware Design}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Download zcu104 BSP}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Create Petalinux Project}{1}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Reconfigure Project}{2}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Configure the Linux Kernel}{2}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Build the petalinux project}{2}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Create and build the SL-DLA kernel module}{2}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Modify the system user device tree}{2}{subsection.2.7}%
+\contentsline {section}{\numberline {3}Create SL-DLA Platform Assets Container}{3}{section.3}%
+\contentsline {section}{\numberline {4}Installation and Activation of SL-DLA PAC}{4}{section.4}%
+\contentsline {subsubsection}{\numberline {4.0.1}Activating the PAC}{4}{subsubsection.4.0.1}%
+\contentsline {section}{\numberline {5}Setting up X2GO Server}{4}{section.5}%
+\contentsline {section}{\numberline {6}Patching the Target Linux Kernel}{4}{section.6}%
