@@ -95,7 +95,7 @@ petalinux-create -t modules -n sl-dla-mpsoc --enable
 \end{lstlisting}
 
 \subsection{Modify the system user device tree}
-The following is added to the <path to project>/project-spec/meta-user/recipes-bsp/device-tree/files/system-user.dtsi
+The following is added to the $<$path to project$>$/project-spec/meta-user/recipes-bsp/device-tree/files/system-user.dtsi
 file.
 \begin{lstlisting}
 /include/ "system-conf.dtsi"
@@ -229,11 +229,21 @@ fakeroot debian/rules binary
 
 After building we need to install the kernel. For this we do the following:
 \begin{lstlisting}
-    cd ..
-    sudo dpkg -i *.deb
+cd ..
+sudo dpkg -i *.deb
 \end{lstlisting}
 
 After this we reboot the board and we have the board runnning the patched kernel with the required drivers
 installed and ready.
+
+\section{Running the SL-DLA-Demo files}
+The sl-dla-demo files were copied to the acu board using scp over the ethernet connection. The folder contains a
+the sl-dla-kernel-module.ko file which is inserted as a kernel module using the following command:
+\begin{lstlisting}
+sudo insmod sl-dla-kernel-module.ko
+\end{lstlisting}
+
+The binary files included for running the respective demos are run giving appropriate arguments. The DLA architecture
+loaded onto the board is now functioning properly with the correct drivers installed in the kernel.
 
 \end{document}

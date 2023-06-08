@@ -16,3 +16,4 @@
 \contentsline {subsubsection}{\numberline {4.0.1}Activating the PAC}{4}{subsubsection.4.0.1}%
 \contentsline {section}{\numberline {5}Setting up X2GO Server}{4}{section.5}%
 \contentsline {section}{\numberline {6}Patching the Target Linux Kernel}{4}{section.6}%
+\contentsline {section}{\numberline {7}Running the SL-DLA-Demo files}{5}{section.7}%
