@@ -7,8 +7,10 @@
 \lstset{
     basicstyle=\footnotesize\ttfamily,
     backgroundcolor=\color{verylightgray},
-    showstringspaces=false,
     breaklines=true,
+    showstringspaces=false,
+    keepspaces=false,
+    showspaces=false,
 }
 \usepackage{amsmath}
 \usepackage{bookmark}
@@ -97,7 +99,7 @@ petalinux-create -t modules -n sl-dla-mpsoc --enable
 \subsection{Modify the system user device tree}
 The following is added to the $<$path to project$>$/project-spec/meta-user/recipes-bsp/device-tree/files/system-user.dtsi
 file.
-\begin{lstlisting}
+\begin{lstlisting}[language=bash]
 /include/ "system-conf.dtsi"
 / {
     reserved-memory {
